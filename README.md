@@ -25,7 +25,7 @@ O projeto consiste em uma simulação de compra de ingressos, onde o usuário po
 
 - Seleção "Escolha o tipo": Seleciona o tipo de ingresso.
 - Campo de Qtde.: Permite ao usuário inserir a quantidade desejada de produtos.
-- Botão "Comprar": Executa subtrair a quantidade comprada com os ingressos disponíveis.
+- Botão "Comprar": Execução subtrai a quantidade comprada com os ingressos disponíveis.
 
 À medida que ingressos são comprados, a interface exibirá a subtração da quantidade de ingressos disponíveis para a compra.
 
