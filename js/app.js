@@ -2,6 +2,12 @@ function comprar(){
     let tipoIngresso = document.getElementById("tipo-ingresso").value;
     let quantidade = document.getElementById("qtd").value;
 
+    //  Desafio opcional: validar se quantidade é negativa ou zero
+    if(quantidade <= 0){
+        alert("Quantidade inválida!");
+        return NaN
+    }
+
     //Subtração dos ingressos disponíveis
     let novaQuantidadeIngressos = subtracaoIngressos(tipoIngresso, quantidade);
 
